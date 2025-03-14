@@ -1,10 +1,4 @@
 /* All annotations are above corresponding code */
-/* Defines screen size */
-@media screen {
-    .flex_item_left, .flex_item_right {
-        flex: 100%;
-    }
-}
 /* Adds Roboto font */
 @font-face {
     font-family: 'Roboto';
@@ -62,7 +56,7 @@ body {
     color: #ffffff;
     text-align: center;
     font-family: 'roboto', sans-serif;
-    font-size: xx-large;
+    font-size: medium;
     text-shadow: #000000 2px 2px 5px;
     margin: 0;
     overflow-x: hidden;
@@ -238,4 +232,9 @@ h3 {
     width: 33%;
     margin-left: 1%;
     margin-right: 1%;
+}
+@media screen and (min-width: 800px) {
+    body {
+    font-size: xx-large;
+    }
 }
