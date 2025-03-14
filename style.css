@@ -209,8 +209,8 @@ h3 {
 }
 #time_table {
     display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     border: solid #2f332d 5px;
     border-radius: 5px 30px 5px;
     background-color: #C4BEB5;
